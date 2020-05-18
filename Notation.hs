@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Notation where
 
 import Data.List.Split

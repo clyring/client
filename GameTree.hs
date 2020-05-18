@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module GameTree(derefNode, leftDepth, treeDepth,
                 GameTree(tree, currentPos, viewPos), mkGameTree, pathEnd,
                 select, nextBranch, prevBranch,

@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Protocol where
 
 import Control.Exception

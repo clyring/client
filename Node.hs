@@ -1,4 +1,5 @@
-{-# LANGUAGE DataKinds, KindSignatures, ImplicitParams #-}
+{-# LANGUAGE CPP, DataKinds, ImplicitParams, KindSignatures #-}
+#include "Extensions.hs"
 
 module Node where
 

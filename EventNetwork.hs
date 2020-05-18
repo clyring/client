@@ -1,4 +1,5 @@
-{-# LANGUAGE TemplateHaskell, ImplicitParams #-}
+{-# LANGUAGE CPP, ImplicitParams, TemplateHaskell #-}
+#include "Extensions.hs"
 
 module EventNetwork
   (Request(..), Update(..)

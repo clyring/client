@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Match(MoveSet(..), currentMove, makeMoveSet, setCapture, toggleCapture) where
 
 import Data.Function

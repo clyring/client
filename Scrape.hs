@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Scrape
   (ServerGameInfo(..), getServerGame
   ,BotLadderBot(..), botLadderAll

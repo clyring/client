@@ -1,4 +1,4 @@
-{-# LANGUAGE TemplateHaskell, DeriveLift, ImplicitParams #-}
+{-# LANGUAGE DeriveLift, ImplicitParams, TemplateHaskell #-}
 
 module Templates where
 

@@ -1,4 +1,5 @@
-{-# LANGUAGE ExistentialQuantification, DataKinds, KindSignatures #-}
+{-# LANGUAGE CPP, DataKinds, ExistentialQuantification, KindSignatures #-}
+#include "Extensions.hs"
 
 module WidgetValue where
 

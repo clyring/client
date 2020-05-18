@@ -1,6 +1,7 @@
 -- -*- Haskell -*-
 
-{-# LANGUAGE CPP, DataKinds, DeriveLift, TemplateHaskell, ImplicitParams #-}
+{-# LANGUAGE CPP, DataKinds, DeriveLift, ImplicitParams, TemplateHaskell #-}
+#include "Extensions.hs"
 
 import Data.Array.IArray
 import Graphics.UI.Gtk hiding (get, set, Shift, Arrow, rectangle, on)

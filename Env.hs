@@ -1,4 +1,4 @@
-{-# LANGUAGE TemplateHaskell, ImplicitParams, DeriveLift #-}
+{-# LANGUAGE DeriveLift, ImplicitParams, TemplateHaskell #-}
 
 module Env where
 

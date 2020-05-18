@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Behavior(Behavior', fromBehavior, toBehavior) where
 
 import Reactive.Banana

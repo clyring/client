@@ -1,4 +1,5 @@
-{-# LANGUAGE ImplicitParams #-}
+{-# LANGUAGE CPP, ImplicitParams #-}
+#include "Extensions.hs"
 
 module Draw(drawNode, drawEmptyBoard, drawSetupIcon, drawCaptures, smallSquare, squareSize, borderWidth, mkTrapMask) where
 

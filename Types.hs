@@ -1,4 +1,5 @@
-{-# LANGUAGE TemplateHaskell, GADTs #-}
+{-# LANGUAGE CPP, TemplateHaskell #-}
+#include "Extensions.hs"
 
 module Types where
 

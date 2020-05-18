@@ -1,4 +1,5 @@
-{-# LANGUAGE ImplicitParams, CPP #-}
+{-# LANGUAGE CPP, ImplicitParams #-}
+#include "Extensions.hs"
 
 module Sharp(SharpVal(..), Eval, flipEval, SharpStatus(..), SharpProcess(status, val), mkSharpProcess, killSharp, killSharps) where
 

@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Base (boardWidth, boardHeight, boardRange, Square, trapSquares, stepsPerMove, Colour(..), flipColour
             ,pieceInfo, nSetupRows, setupRows, Piece, Board, emptyBoard, Move(..), padMove
             ,moveToString, Reason(..), TimeControl(..), parseTimeControl, Arrow

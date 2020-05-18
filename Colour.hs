@@ -1,3 +1,6 @@
+{-# LANGUAGE CPP #-}
+#include "Extensions.hs"
+
 module Colour(module Data.Colour, module Data.Colour.Names, module Data.Colour.SRGB, setSourceColour, setSourceColourAlpha, toColour, blendRGB) where
 
 import Data.Colour hiding (Colour)
